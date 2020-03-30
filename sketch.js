@@ -1,4 +1,6 @@
-
+var r = 255;
+var g = 255;
+ var b = 255;
 
 
 // INITIALIZE ALL YOUR VARIABLES
@@ -12,12 +14,12 @@ function setup(){
 
 }
 function draw(){
-  backGround("white");
+  background(r,g,b);
 
 
-  let red1 = map(mouseX,0,1200,0,255,true);
-  let green1 = map(mouseX,0,1200,0,255,true);
-  let blue1 = map(mouseX,0,1200,0,255,true);
+  let r = map(mouseX,0,1200,0,255,true);
+  let g = map(mouseX,0,1200,0,255,true);
+  let b = map(mouseX,0,1200,0,255,true);
   ellipse(mouseX,200,50,50);
   // change the value of Red based on the mouse movement about the X axis
   // change the value of Green based on the mouse movement about the X axis
